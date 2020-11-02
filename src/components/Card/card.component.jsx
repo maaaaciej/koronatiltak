@@ -1,17 +1,15 @@
-import './card.style.scss'
-import Beer from '../../assets/beer.svg'
+import './card.style.scss';
 
-const Card = () => {
+const Card = ( { icon, status, text } ) => {
   return (
     <div className='card'>
-      <img src={Beer} alt='icon' className='icon' />
-      <h3>Påbudt</h3>
+      <img src={ icon } alt='icon' className='icon' />
+      <h3 className={ status ? "mandatory" : "recommended" }>{ status ? "Påbud" : "Anbefaling" }</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor
-        vero rerum. A aperiam iure quae facilis, vel minima voluptates?
+        { text }
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

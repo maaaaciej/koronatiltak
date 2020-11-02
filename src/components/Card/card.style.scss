@@ -7,6 +7,7 @@
   transition: transform .2s;
   text-align: center;
   box-shadow: 0px 10px 1px #ddd, 0 10px 20px #ccc;
+  margin-bottom: 64px;
 
   &:hover {
       transform: scale(1.01);
@@ -31,7 +32,7 @@
   }
 
   & .recommended {
-    color: rgb(255, 255, 0);
+    color: rgb(168, 168, 0);
   }
   & .mandatory {
     color: rgb(255, 0, 0);
