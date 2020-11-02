@@ -10,14 +10,18 @@ import Tree from "../assets/tree.svg";
 
 const tiltak = [
     {
-        icon: Mask,
-        status: "mandatory",
-        text: "Munnbind er påbudt på kollektivtransport og innendørs på alle offentlige steder der du ikke kan opprettholde 1 meter avstand"
+        icon: Group,
+        text: "Antallet kontakter i uken bør ikke overstige 10 personer (ikke inkludert egen husstand og barneskole/barnehageklasser)",
     },
     {
         icon: Store,
         status: "mandatory",
         text: "Munnbind er påbudt for ansatte og gjester på serveringssteder i alle situasjoner man ikke sitter ved et bord"
+    },
+    {
+        icon: Mask,
+        status: "mandatory",
+        text: "Munnbind er påbudt på kollektivtransport og innendørs på alle offentlige steder der du ikke kan opprettholde 1 meter avstand"
     },
     {
         icon: Drink,
@@ -34,10 +38,7 @@ const tiltak = [
         status: "mandatory",
         text: "Det er påbudt med hjemmekontor så langt det er mulig. Arbeidsgiver skal kunne dokumentere at alle ansatte har fått beskjed om at de skal ha hjemmekontor"
     },
-    {
-        icon: Group,
-        text: "Antallet kontakter i uken bør ikke overstige 10 personer (ikke inkludert egen husstand og barneskole/barnehageklasser)",
-    },
+
     {
         icon: Cake,
         status: "mandatory",
@@ -46,7 +47,7 @@ const tiltak = [
     {
         icon: NoDrink,
         status: "mandatory",
-        text: "Sjenkestopp på alle utesteder klokken 24.00"
+        text: "Skjenkestopp på alle utesteder klokken 24.00"
     },
     {
         icon: Tree,
