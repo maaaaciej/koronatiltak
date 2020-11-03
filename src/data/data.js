@@ -42,7 +42,7 @@ const tiltak = [
     {
         icon: Cake,
         status: "mandatory",
-        text: "Det er forbudt med private samlinger over tilsammen 10 personer"
+        text: "Det er forbudt med private samlinger over til sammen 10 personer"
     },
     {
         icon: NoDrink,
