@@ -7,7 +7,6 @@ function App () {
     <div>
       <Header />
       <CardContainer />
-      <CoffeeButton />
     </div>
   );
 }
