@@ -4,7 +4,7 @@ const Card = ( { icon, status, text } ) => {
   return (
     <div className='card'>
       <img src={ icon } alt='icon' className='icon' />
-      <h3 className={ status ? "mandatory" : "recommended" }>{ status ? "Påbud" : "Anbefaling" }</h3>
+      <h3 className={ status ? "mandatory" : "recommended" }>{ status ? "Påbud/Forbud" : "Anbefaling" }</h3>
       <p>
         { text }
       </p>

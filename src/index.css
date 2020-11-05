@@ -29,3 +29,10 @@ h6 {
 p {
   font-family: "Roboto", sans-serif;
 }
+
+.updates {
+  width: 90%;
+  text-align: center;
+  margin: 50px auto;
+
+}

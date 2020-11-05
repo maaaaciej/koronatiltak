@@ -6,6 +6,7 @@ function App () {
     <div>
       <Header />
       <CardContainer />
+      <h3 className="updates">Sist oppdatert 5. november 2020</h3>
     </div>
   );
 }
