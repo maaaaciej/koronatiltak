@@ -4,12 +4,16 @@ import tiltak from '../../data/data.js';
 
 import './cardcontainer.style.scss';
 
-const CardContainer = () => {
+const CardContainer = ({isWholeNorway}) => {
     return (
         <div className='container'>
-            {tiltak.map( ( { text, status, icon } ) => {
-                return <Card key={ text } text={ text } status={ status } icon={ icon } />;
-            } ) }
+            {isWholeNorway ? (
+                <div>Norge</div>
+            ) : (
+                    tiltak.map( ( { text, status, icon } ) => {
+                        return <Card key={ text } text={ text } status={ status } icon={ icon } />;
+                    } )
+                ) }
         </div>
     );
 };

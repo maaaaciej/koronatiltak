@@ -1,0 +1,14 @@
+.toggle-norway {
+    width: 300px;
+    margin: 0 auto 48px auto;
+    text-align: center;
+
+    & h3 {
+        font-size: 28px;
+    }
+
+  & .toggle-norway-toggler {
+    display: flex;
+    justify-content: space-between;
+  }
+}

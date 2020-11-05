@@ -1,10 +1,10 @@
 import './header.style.scss'
 
-const Header = () => {
+const Header = ({isWholeNorway}) => {
   return (
     <header className='header'>
       <h1 className="title">KoronaTiltak</h1>
-      <h2>Oversikt over gjeldende koronatiltak i Oslo</h2>
+      <h2>Oversikt over gjeldende koronatiltak i {isWholeNorway ? "Norge" : "Oslo"}</h2>
     </header>
   )
 }
