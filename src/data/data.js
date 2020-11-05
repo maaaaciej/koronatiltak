@@ -5,7 +5,6 @@ import Keyboard from "../assets/keyboard.svg";
 import Group from "../assets/group.svg";
 import Cake from "../assets/cake.svg";
 import NoDrink from "../assets/nodrink.svg";
-import Tree from "../assets/tree.svg";
 import Ruler from "../assets/ruler.svg";
 import Car from "../assets/car.svg";
 
