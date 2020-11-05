@@ -7,11 +7,17 @@ import Cake from "../assets/cake.svg";
 import NoDrink from "../assets/nodrink.svg";
 import Ruler from "../assets/ruler.svg";
 import Car from "../assets/car.svg";
+import Munnbind from "../assets/munnbind.svg"
 
 const tiltak = [
     {
         icon: Group,
         text: "Antallet kontakter i uken bør ikke overstige 10 personer (ikke inkludert egen husstand, arbeidskollegaer og barneskole/barnehageklasser)",
+    },
+    {
+        icon: Munnbind,
+        status: "reklame",
+        text: `Munnbind Til Alle tilbyr høykvalitetsmunnbind til en pris folk har råd til å betale. Munnbindene er av type 1 og godkjent til bruk på offentlig transport og fly. <a href="https://munnbindtilalle.no"> Sjekk ut Munnbind Til Alle </a>`
     },
     {
         icon: Car,
