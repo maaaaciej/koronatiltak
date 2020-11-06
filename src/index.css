@@ -31,8 +31,8 @@ p {
 }
 
 .updates {
-  width: 90%;
+  display: block;
   text-align: center;
-  margin: 50px auto;
-
+  margin: 0 auto 50px auto;
+  font-style: italic;
 }

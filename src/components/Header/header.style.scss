@@ -1,6 +1,6 @@
 .header {
   text-align: center;
-  margin: 48px auto 96px auto;
+  margin: 48px auto 24px auto;
 
   & h1 {
     margin: 0;
@@ -16,7 +16,7 @@
 
 @media only screen and (max-width: 600px) {
   .header {
-    margin: 24px auto 48px auto;
+    margin: 24px auto 16px auto;
 
     & h1 {
       font-size: 32px;
