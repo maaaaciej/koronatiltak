@@ -25,22 +25,22 @@ const tiltak = [
     },
     {
         icon: Ruler,
-        text: "Forsøk å holde minst to meters avstand til folk i risikogrupper"
+        text: "Forsøk å holde minst to meters avstand til folk i risikogrupper. Unngå å besøke helsehus og langtidshjem dersom du har vært nærmere enn 1 meter til personer utover dine nærmeste"
     },
     {
         icon: Store,
         status: "mandatory",
-        text: "Munnbind er påbudt for ansatte og gjester på serveringssteder i alle situasjoner man ikke sitter ved et bord"
+        text: "Alle virksomheter der det foregår kultur- og fritidsaktiviteter stenges (treningssentre, kinoer, teatre, lekeland)"
     },
     {
         icon: Mask,
         status: "mandatory",
-        text: "Munnbind er påbudt på kollektivtransport og innendørs på alle offentlige steder der du ikke kan opprettholde 1 meter avstand"
+        text: "Munnbind er påbudt på kollektivtransport, taxi og innendørs på alle offentlige steder der du ikke kan opprettholde 1 meter avstand"
     },
     {
         icon: Drink,
         status: "mandatory",
-        text: "Private arrangementer på offentlige eller leide lokaler kan ha maks 20 deltagere uten faste plasser, og maks 50 med"
+        text: "Alle private arrangementer forbys"
     },
     {
         icon: Keyboard,
@@ -55,7 +55,7 @@ const tiltak = [
     {
         icon: NoDrink,
         status: "mandatory",
-        text: "Utesteder slipper ikke inn etter 22.00. Det er innført skjenkestopp på alle utesteder fra klokken 24.00"
+        text: "Forbud mot alkoholservering. Serveringssteder kan holde åpent uten å servere alkohol. Munnbind er påbudt for ansatte og gjester i alle situasjoner der man ikke sitter ved et bord"
     },
 ];
 
